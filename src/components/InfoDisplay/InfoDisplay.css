@@ -5,6 +5,7 @@
   background-color: cornsilk;
   width: auto;
   border-radius: 20px;
+  max-width: 900px;
 }
 
 .infolabel {
