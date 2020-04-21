@@ -385,7 +385,7 @@ function App() {
       <br/>
       <br/>
       <MonthInfoDisplay
-        label={`The Produce we Offer, by Month`}
+        label={`The Produce We Offer, by Month`}
         data={availableProduce}
       />
     </div>
