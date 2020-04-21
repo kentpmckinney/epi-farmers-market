@@ -33,7 +33,7 @@ class MonthInfoDisplay extends React.Component {
               <div>
                 <MonthDisplay
                   active={this.state.selectedMonth}
-                  onchange={this.changeMonth}
+                  onChangeHandler={this.changeMonth}
                 />
               </div>
               <br />

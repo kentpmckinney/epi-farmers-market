@@ -1,8 +1,13 @@
 .infopanel {
   margin-left: 40px;
+  padding: 20px;
+  background-color: cornsilk;
+  width: auto;
+  border-radius: 20px;
 }
 
 .infolabel {
   font-size: 22px;
   font-weight: bold;
+  color: saddlebrown;
 }

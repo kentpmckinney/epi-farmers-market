@@ -1,6 +1,7 @@
 import React from 'react';
 import InfoDisplay from './InfoDisplay/InfoDisplay'
 import MonthInfoDisplay from './MonthInfoDisplay/MonthInfoDisplay'
+import plant from '../leaf.png'
 import './App.css';
 
 const marketSchedule = [  
@@ -368,7 +369,8 @@ function App() {
 
   return (
     <div className = 'container'>
-      <h1>Avery Organics</h1>
+      <h1><img src={plant} className='headerimg'/> Avery Organics</h1>
+      
       <br/>
       <InfoDisplay
         label={`Today's Market Location (${day}, ${date} ${month}, ${year})`}
