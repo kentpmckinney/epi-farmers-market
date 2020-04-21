@@ -6,7 +6,7 @@ function InfoDisplay(props) {
     <React.Fragment>
       <div className='infolabel'>{props.label}</div>
       <br/>
-      <div className='infopanel'>{props.info}</div>
+      <div className='infopanel'><center>{props.info}</center></div>
     </React.Fragment>
   );
 }

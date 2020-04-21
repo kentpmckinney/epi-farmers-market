@@ -1,6 +1,7 @@
 import React from 'react';
 import InfoDisplay from '../InfoDisplay/InfoDisplay'
 import MonthDisplay from '../MonthDisplay/MonthDisplay'
+import './MonthInfoDisplay.css'
 
 class MonthInfoDisplay extends React.Component {
   constructor(props) {
@@ -37,7 +38,7 @@ class MonthInfoDisplay extends React.Component {
                 />
               </div>
               <br />
-              <div>
+              <div className='limitwidth'>
                 {produceList}
               </div>
             </React.Fragment>

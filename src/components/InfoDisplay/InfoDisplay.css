@@ -1,11 +1,10 @@
 .infopanel {
   display:inline-block;
-  margin-left: 40px;
   padding: 20px;
   background-color: cornsilk;
   width: auto;
   border-radius: 20px;
-  max-width: 900px;
+  text-align: center;
 }
 
 .infolabel {
