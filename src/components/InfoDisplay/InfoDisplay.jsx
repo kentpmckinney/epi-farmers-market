@@ -1,10 +1,12 @@
 import React from 'react';
 import './InfoDisplay.css'
 
-function InfoDisplay() {
+function InfoDisplay(props) {
   return (
     <React.Fragment>
-
+      <div className='infolabel'>{props.label}</div>
+      <br/>
+      <div className='infopanel'>{props.info}</div>
     </React.Fragment>
   );
 }
