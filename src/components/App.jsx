@@ -29,18 +29,24 @@ const marketSchedule = [
      booth: "3E"
   },
   {  
-     day: "Thursday",
-     location: "Northwest Portland",
-     hours: "2:00pm - 6:00pm",
-     booth: "6D"
-  },
-  {  
-     day: "Saturday",
-     location: "Beaverton",
-     hours: "10:00am - 1:30pm",
-     booth: "9G"
-  }
- ];
+    day: "Thursday",
+    location: "Northwest Portland",
+    hours: "2:00pm - 6:00pm",
+    booth: "6D"
+ },
+ {
+    day: "Friday",
+    location: "We Are Closed Today!",
+    hours: "n/a",
+    booth: "n/a"
+},
+{
+    day: "Saturday",
+    location: "Beaverton",
+    hours: "10:00am - 1:30pm",
+    booth: "9G"
+}
+];
 
  const availableProduce = [  
   {  
