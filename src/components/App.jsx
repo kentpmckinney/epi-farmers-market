@@ -1,6 +1,6 @@
 import React from 'react';
 import InfoDisplay from './InfoDisplay/InfoDisplay'
-import MonthDisplay from './MonthDisplay/MonthDisplay'
+import MonthInfoDisplay from './MonthInfoDisplay/MonthInfoDisplay'
 import './App.css';
 
 const marketSchedule = [  
@@ -314,7 +314,7 @@ const marketSchedule = [
 function App() {
 
   var d = new Date();
-  var weekday = new Array(7);
+  var weekday = [];
   weekday[0] = "Sunday";
   weekday[1] = "Monday";
   weekday[2] = "Tuesday";
@@ -323,7 +323,7 @@ function App() {
   weekday[5] = "Friday";
   weekday[6] = "Saturday";
 
-  var m = new Array();
+  var m = [];
   m[0] = "January";
   m[1] = "February";
   m[2] = "March";
@@ -346,7 +346,7 @@ function App() {
   let booth = ''
 
   marketSchedule.forEach(function(item){
-    if (item.day == day) {
+    if (item.day === day) {
       location = item.location
       hours = item.hours
       booth = item.booth
@@ -355,7 +355,7 @@ function App() {
 
   let produceList = ''
   availableProduce.forEach(function(item){
-    if (item.month == month) {
+    if (item.month === month) {
       produceList = item.selection.join(', ');
     }
   })
@@ -369,14 +369,17 @@ function App() {
         info={<div><span><b>Hours:</b> {hours}</span><br/><span><b>Location:</b> {location}</span><br/><span><b>Booth:</b> {booth}</span></div>}
       />
       <br/>
+      <br/>
       <InfoDisplay
         label={`Today's Produce`}
         info={produceList}
       />
       <br/>
-      <InfoDisplay>
-        <MonthDisplay/>
-      </InfoDisplay>
+      <br/>
+      <MonthInfoDisplay
+        label={`The Produce we Offer, by Month`}
+        data={availableProduce}
+      />
     </div>
   );
 }

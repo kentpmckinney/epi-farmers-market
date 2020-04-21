@@ -1,0 +1,26 @@
+.monthlist {
+  overflow: hidden;
+  margin-left: -40px;
+}
+
+.monthlist li {
+  cursor: pointer;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 8px;
+  margin-left: 3px;
+  margin-right: 3px;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 2px solid transparent;
+}
+
+.monthlist li:hover {
+  border-bottom: 2px solid black;
+}
+
+.monthlist li.active {
+  border-bottom: 2px solid black;
+}
