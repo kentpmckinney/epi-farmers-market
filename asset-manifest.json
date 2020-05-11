@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/epi-farmers-market/static/css/main.c272c1c5.chunk.css",
+    "main.js": "/epi-farmers-market/static/js/main.63bdb112.chunk.js",
+    "main.js.map": "/epi-farmers-market/static/js/main.63bdb112.chunk.js.map",
+    "runtime-main.js": "/epi-farmers-market/static/js/runtime-main.aef4311f.js",
+    "runtime-main.js.map": "/epi-farmers-market/static/js/runtime-main.aef4311f.js.map",
+    "static/js/2.014034bd.chunk.js": "/epi-farmers-market/static/js/2.014034bd.chunk.js",
+    "static/js/2.014034bd.chunk.js.map": "/epi-farmers-market/static/js/2.014034bd.chunk.js.map",
+    "index.html": "/epi-farmers-market/index.html",
+    "precache-manifest.1ae427212b16ec1633f1e684b35cb428.js": "/epi-farmers-market/precache-manifest.1ae427212b16ec1633f1e684b35cb428.js",
+    "service-worker.js": "/epi-farmers-market/service-worker.js",
+    "static/css/main.c272c1c5.chunk.css.map": "/epi-farmers-market/static/css/main.c272c1c5.chunk.css.map",
+    "static/js/2.014034bd.chunk.js.LICENSE.txt": "/epi-farmers-market/static/js/2.014034bd.chunk.js.LICENSE.txt",
+    "static/media/leaf.png": "/epi-farmers-market/static/media/leaf.2034149b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aef4311f.js",
+    "static/js/2.014034bd.chunk.js",
+    "static/css/main.c272c1c5.chunk.css",
+    "static/js/main.63bdb112.chunk.js"
+  ]
+}
