@@ -46,7 +46,7 @@ example
 
 ## Deployment
 
-
+Run the command 'npm run build' to build a production version of the application under ./build
 
 ## Technologies Used
 
@@ -65,3 +65,4 @@ Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://
 
 ## Acknowledgments
 
+https://www.learnhowtoprogram.com/react/react-fundamentals/farmers-market
