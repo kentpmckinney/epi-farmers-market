@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/epi-farmers-market/precache-manifest.1ae427212b16ec1633f1e684b35cb428.js"
+  "/epi-farmers-market/precache-manifest.a16f7ba5131fb0bd5af1f25ae51cb08e.js"
 );
 
 self.addEventListener('message', (event) => {
